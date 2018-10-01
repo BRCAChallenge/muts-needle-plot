@@ -14,8 +14,10 @@ text {
 <body>
 <div id="yourDiv"> </div>
 
-<script src="build/muts-needle-plot.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.core.min.js"></script>
 <script src="src/js/dependencies/d3.js"></script>
+<script src="src/js/d3-svg-legend.js"></script>
+<script src="build/muts-needle-plot.js"></script>
 <script>
 
     colorMap = {
@@ -41,6 +43,7 @@ text {
         minCoord :      0,
         height:         450,
         targetElement : "yourDiv",
+        brcakey: "BRCA1Allele",
         mutationData:   "snippets/data/muts.json",
         //mutationData:   [{"category": "test", "coord": "99", "value": 77}],
         regionData:     "snippets/data/regions.json",
