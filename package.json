@@ -14,7 +14,7 @@
   "bugs": {
     "url": "https://github.com/cmarkello/muts-needle-plot.git/issues"
   },
-  "license": "Apache 2",
+  "license": "Apache-2.0",
   "main": "src/js/MutNeedles",
   "scripts": {
     "build": "gulp build",
@@ -35,7 +35,6 @@
     "vinyl-fs": "^2.4.4"
   },
   "devDependencies": {
-    "sniper": "^0.0.4",
     "browserify": "5.x",
     "d3": "3.5.4",
     "del": "^0.1.3",
