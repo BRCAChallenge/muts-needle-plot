@@ -31,7 +31,7 @@
     "js": "^0.1.0",
     "js-class": "0.0.2",
     "js-extend": "0.0.2",
-    "sniper": "^0.2.16",
+    "sniper": "git://github.com/biojs/sniper.git#63846d0b7f5f2e6ff14af9b944dcb5ab370756b8",
     "vinyl-fs": "^2.4.4"
   },
   "devDependencies": {
